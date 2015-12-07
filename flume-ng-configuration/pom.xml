@@ -58,8 +58,8 @@ limitations under the License.
     </dependency>
 
     <dependency>
-      <groupId>org.apache.flume</groupId>
-      <artifactId>flume-ng-sdk</artifactId>
+    	<groupId>org.apache.flume</groupId>
+    	<artifactId>flume-ng-sdk</artifactId>
     </dependency>
   </dependencies>
 </project>

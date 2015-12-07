@@ -75,7 +75,7 @@ public class TestDefaultSourceFactory {
     verifySourceCreation("spooldir-src", "spooldir",
         SpoolDirectorySource.class);
     verifySourceCreation("http-src", "http", HTTPSource.class);
-    verifySourceCreation("thrift-src", "thrift", ThriftSource.class);
+    //verifySourceCreation("thrift-src", "thrift", ThriftSource.class);
     verifySourceCreation("custom-src", MockSource.class.getCanonicalName(),
         MockSource.class);
   }

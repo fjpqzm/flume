@@ -21,7 +21,6 @@ package org.apache.flume.serialization;
 import java.io.File;
 import java.io.IOException;
 
-import com.google.common.base.Preconditions;
 import org.apache.avro.file.DataFileReader;
 import org.apache.avro.file.DataFileWriter;
 import org.apache.avro.io.DatumReader;
@@ -31,6 +30,8 @@ import org.apache.avro.specific.SpecificDatumWriter;
 import org.apache.flume.annotations.InterfaceAudience;
 import org.apache.flume.annotations.InterfaceStability;
 import org.apache.flume.tools.PlatformDetect;
+
+import com.google.common.base.Preconditions;
 
 /**
  * <p/>Class that stores object state in an avro container file.

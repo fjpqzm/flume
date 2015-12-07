@@ -28,7 +28,6 @@ limitations under the License.
     <version>1.7.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.apache.flume</groupId>
   <artifactId>flume-tools</artifactId>
 
   <name>Flume NG Tools</name>

@@ -263,10 +263,6 @@ limitations under the License.
       <artifactId>flume-ng-configuration</artifactId>
     </dependency>
 
-    <dependency>
-      <groupId>org.apache.flume</groupId>
-      <artifactId>flume-ng-auth</artifactId>
-    </dependency>
 
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -370,11 +366,6 @@ limitations under the License.
       <groupId>org.mockito</groupId>
       <artifactId>mockito-all</artifactId>
       <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.thrift</groupId>
-      <artifactId>libthrift</artifactId>
     </dependency>
 
     <dependency>
